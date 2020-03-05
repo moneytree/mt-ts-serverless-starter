@@ -1,9 +1,9 @@
-# MT Audit
+# Typescript, Serverless Starter
 
-MT Audit runs a scheduled AWS Lambda function which scrapes our third- and first-party services and produces a report of which users have access to which systems.
+Repo template for an AWS Lambda function with support for Jest, Prettier, ESLint, Commitizen and Serverless framework.
 
 ## Known Issues
 
 **Arbitrary File Write:** https://npmjs.com/advisories/1217
 
-This package is in the dependency tree for the serverless framework and is not a security risk unless extracting user-supplied tarballs. This application is not vulnerable.
+This package is in the dependency tree for the Serverless framework and is not a security risk unless extracting untrusted tarballs with framework commands. This starter is not vulnerable.
